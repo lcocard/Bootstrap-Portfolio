@@ -2,6 +2,13 @@ body {
     background-image: url("../images/circles-light.png");
 }
 
+@media (min-width: 576px) {
+    .main {
+        left: calc(100vw - 60rem);
+    }
+}
+
+
 p1 { 
     display: block;
     position: absolute; 
@@ -62,3 +69,4 @@ p1 {
     margin: 4px 2px;
     cursor: pointer;
 }
+
