@@ -2,24 +2,7 @@ body {
     background-image: url("../images/circles-light.png");
 }
 
-@media (min-width: 576px) {
-    .main {
-        left: calc(100vw - 60rem);
-    }
-}
-
-#profile-picure {
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-/* #profile-text {
-    padding: 1rem 0 0 1rem;
-} */
-
-/* img {
-    margin: 1rem;
-} */
-
+/* Abot Me Page */
 .p1 { 
     display: block;
     position: absolute; 
@@ -33,6 +16,8 @@ body {
     color: white;
     width: 11.25rem ;
 }
+
+/* Contact Page */
 
 #Contact-Form {
     width: 60rem;
@@ -82,3 +67,10 @@ body {
     cursor: pointer;
 }
 
+/* responsive layout query */
+
+@media (min-width: 576px) {
+    .main {
+        left: calc(100vw - 60rem);
+    }
+}
