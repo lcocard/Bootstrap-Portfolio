@@ -8,8 +8,11 @@ body {
     }
 }
 
+img {
+    margin: 1rem;
+}
 
-p1 { 
+.p1 { 
     display: block;
     position: absolute; 
     bottom: 1em;
@@ -18,6 +21,7 @@ p1 {
     font-size: 1e;
     text-align: center;
     padding: 0.5em;
+    margin: 1rem;
     color: white;
     width: 11.25rem ;
 }
