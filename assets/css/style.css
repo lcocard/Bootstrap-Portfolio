@@ -5,7 +5,8 @@ body {
 /* Abot Me Page */
 .p1 { 
     display: block;
-    position: absolute; 
+    position: absolute;
+    left: 2em;
     bottom: 1em;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
