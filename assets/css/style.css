@@ -84,7 +84,7 @@ main {
 
 /* responsive layout query */
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .main {
         left: calc(100vw - 60rem);
     }
