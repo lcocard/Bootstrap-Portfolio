@@ -22,8 +22,8 @@ header {
 }
 
 main {
-    overflow-y: auto; 
-    height: calc(100vh - 10.5rem);
+    display: block;
+    overflow-y: auto;
 }
 
 /* Abot Me Page */
@@ -78,22 +78,6 @@ main {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-/* Footer */
-
-.card {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4.6875em;
-    text-align: center;
-    background-color: #666666;
-    border-top: 0.5rem solid #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 1rem;
-    color: #b9bdbc;
 }
 
 /* responsive layout query */
