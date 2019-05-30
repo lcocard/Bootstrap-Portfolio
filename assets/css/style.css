@@ -3,8 +3,8 @@ body {
 }
 
 header {
-    border-bottom: 0.125em solid #cccccc; 
-    background-color: #ffffff"
+    border-bottom: 0.125em solid #cccccc;
+    background-color: #ffffff;
 }
 
 .nav-link {
@@ -15,7 +15,7 @@ header {
 }
 
 .page-header {
-    border-bottom: 0.125em solid #cccccc; 
+    border-bottom: 0.125rem solid #cccccc; 
     font-family: 'Georgia', Times, Times New Roman, serif; 
     color: #4aaaa5; 
     padding: 1rem 0 0.1rem 0;
@@ -30,13 +30,13 @@ main {
 .p1 { 
     display: block;
     position: absolute;
-    left: 2em;
-    bottom: 1em;
+    left: 2rem;
+    bottom: 1rem;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 1e;
+    font-size: 1rem;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5rem;
     margin: 1rem;
     color: white;
     width: 11.25rem ;
